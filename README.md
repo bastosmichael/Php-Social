@@ -3,8 +3,6 @@ Php-Social
 
 Social Media Skeleton for Php using Composer and PhpSpec2 testing
 
-$ php composer.phar install --dev
-
 # Installing PhpSpec2 and Behat Testing
 
 ```
