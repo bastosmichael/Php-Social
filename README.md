@@ -3,29 +3,11 @@ Php-Social
 
 Social Media Skeleton for Php using Composer and PhpSpec2 testing
 
+$ php composer.phar install --dev
+
 # Installing PhpSpec2 and Behat Testing
 
-`Create composer.json file in the project root:`
-
 ```
-{
-    "require-dev": {
-        "phpspec/phpspec2": "*",
-        "phpunit/phpunit": "3.7.*",
-        "behat/behat": "2.4.*@stable"
-    },
-    "config": {
-        "bin-dir": "bin"
-    },
-    "autoload": {"psr-0": {"": "src"}},
-    "minimum-stability": "dev"
-}
-```
-
-`Then download composer.phar and run install command:`
-
-```
-$ curl http://getcomposer.org/installer | php
 $ php composer.phar install --dev
 ```
 
